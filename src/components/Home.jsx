@@ -1,15 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Header from './Header.jsx'
 
-class Home extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {};
-    }
-    render() {
-        return (
-            <div>You are on the home page</div>
-        )
-    }
+const Home = () => {
+    return (
+        <Header />
+    )
 }
 
 export default Home;

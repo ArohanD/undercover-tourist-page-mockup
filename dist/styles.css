@@ -1,0 +1,20 @@
+.info_header_container {
+  width: 100vw;
+  height: 35vh;
+}
+
+.info_header_img {
+  width: 100vw;
+  height: 35vh;
+  object-fit: cover;
+}
+
+.info_header {
+  position: absolute;
+  top: 10px;
+  left: 10vw;
+
+  width: 30vw;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
