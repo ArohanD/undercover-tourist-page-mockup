@@ -4,6 +4,7 @@ import Info_About from './Info_About.jsx'
 import Accordion from './Accordion.jsx';
 import Footer from './Footer.jsx';
 import Side_Panel from './Side_Panel.jsx'
+import Close_Box from './Close_Box.jsx'
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
             </div>
             <div className={'info_content_right'}>
                 <Side_Panel />
-                
+                <Close_Box />
             </div>
             <Footer />
         </div>

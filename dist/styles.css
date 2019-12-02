@@ -204,6 +204,41 @@ body {
   font-size: 12px;
 }
 
+.close_box_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgb(241, 241, 241);
+  padding: 8px;
+  margin-top: 30px;
+
+  position: relative;
+}
+
+.close_box_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #1e6070;
+  margin: 5px;
+}
+
+.close_box_text {
+  font-size: 0.7em;
+  margin: 5px;
+  margin-top: 0;
+  color: #5dabc2;
+  font-style: italic;
+}
+
+.close_box_button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+/* Interactions & animations */
 .hidden {
   display: none;
 }
