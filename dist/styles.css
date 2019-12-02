@@ -113,10 +113,19 @@ body {
   background-color: #d9eeef;
   height: 400px;
   width: 300px;
+  padding: 15px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.side_panel_helper {
+  text-transform: uppercase;
+  color: #1e6070;
+  font-weight: bold;
 }
 
 .avatar_container {
@@ -127,8 +136,8 @@ body {
 }
 
 .avatar {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   object-fit: cover;
   border-radius: 50px;
 }
@@ -140,8 +149,9 @@ body {
 .accordion_header {
   background-color: #5dabc2;
   color: white;
-  margin-top: 0;
+  margin: 0 auto;
   font-weight: bold;
+  padding: 8px;
 }
 
 .accordion_list_header {
@@ -149,8 +159,13 @@ body {
 
 }
 
+.accordion_list {
+  padding: 0 10px 10px 10px;
+}
+
 .accordion_list_item {
   max-width: 250px;
+  font-size: 0.9em;
 }
 
 .accordion_list_holder {

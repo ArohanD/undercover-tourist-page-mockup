@@ -15,16 +15,26 @@ const defaultItems = [
 
 const Accordion = () => {
 
-  const [items, setItems] = useState(defaultItems)
+  const [items, setItems] = useState(defaultItems);
+  const expand = (e) => {
+    e.preventDefault();
+
+    let content = document.getElementById('accordion_content');
+    console.log(content);
+
+  }
 
   return (
     <div className={'accordion_container'}>
-      <p className={'accordion_header'}>Don't forget to bring...</p>
-      <div className={'accordion_list'}>
+      <p className={'accordion_header'}>
+        <span>Don't forget to bring..</span>
+        <button onClick={(e) => expand(e)}>{'. >>'}</button>
+        </p>
+      <div className={'accordion_list'} id='accordion_content'>
         <p className={'accordion_list_header'}>This is an accordion to show/hide lists</p>
         <ul className={'accordion_list_holder'}>
           {
-            defaultItems.map(item => <li className={'accordion_list_item'}>{item}</li>)
+            items.map(item => <li className={'accordion_list_item'}>{item}</li>)
           }
         </ul>
       </div>
