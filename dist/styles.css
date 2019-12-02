@@ -156,7 +156,8 @@ body {
 
 .accordion_list_header {
   font-weight: bold;
-
+  padding-left: 20px;
+  margin: 0;
 }
 
 .accordion_list {
@@ -166,12 +167,16 @@ body {
 .accordion_list_item {
   max-width: 250px;
   font-size: 0.9em;
+  line-height: 20px;
 }
 
 .accordion_list_holder {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
+  list-style-type: none;
+  padding-inline-start: 22px;
 
   height: 100px;
 }
@@ -307,4 +312,9 @@ input {
 
 .form_row {
   width: 100%;
+}
+
+.star {
+  color: #1e6070;
+  padding-right: 20px;
 }

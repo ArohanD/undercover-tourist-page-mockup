@@ -37,7 +37,11 @@ const Accordion = () => {
         <p className={'accordion_list_header'}>This is an accordion to show/hide lists</p>
         <ul className={'accordion_list_holder'}>
           {
-            items.map(item => <li className={'accordion_list_item'}>{item}</li>)
+            items.map(item => 
+            <li className={'accordion_list_item'}>
+              <span className={'star'}>{'★'}</span>
+              {item}
+            </li>)
           }
         </ul>
       </div>
