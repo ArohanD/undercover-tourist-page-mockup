@@ -1,3 +1,13 @@
+/* Button Reset */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Font Imports */
 @font-face {
   font-family: 'Oswald';
   src: url('Media/Fonts/Oswald-Regular.ttf');
@@ -20,10 +30,12 @@
   font-style: italic;
 }
 
+/* Default Styles */
 body {
   font-family: 'Proxima Nova';
 }
 
+/* Components */
 .info_header_container {
   width: 100vw;
   height: 35vh;
@@ -81,14 +93,20 @@ body {
 
 .info_content_holder {
   width: 60vw;
-  margin-top: 36vh;
+  margin-top: 35vh;
   margin-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 55vh;
 }
 
 .info_content_right {
   position: absolute;
-  right: 10px;
-  top: 20vh;
+  right: 40px;
+  top: 30vh;
 }
 
 .side_panel {
@@ -154,4 +172,19 @@ body {
 
 .info_about_h2 {
   font-weight: bold;
+}
+
+.info_about_text {
+  column-count: 2;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+.info_button {
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  color: #5dabc2;
+  border:1px solid #5dabc2;
+  font-size: 12px;
 }
