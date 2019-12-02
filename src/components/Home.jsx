@@ -1,9 +1,24 @@
 import React from 'react';
 import Header from './Header.jsx'
+import Info_About from './Info_About.jsx'
+import Accordion from './Accordion.jsx';
+import Footer from './Footer.jsx';
+import Side_Panel from './Side_Panel.jsx'
 
 const Home = () => {
     return (
-        <Header />
+        <div className={'page_container'}>
+            <Header />
+            <div className={'info_content_holder'}>
+                <Info_About />
+                <Accordion />
+            </div>
+            <div className={'info_content_right'}>
+                <Side_Panel />
+                
+            </div>
+            <Footer />
+        </div>
     )
 }
 

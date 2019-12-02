@@ -465,6 +465,30 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/components/Accordion.jsx":
+/*!**************************************!*\
+  !*** ./src/components/Accordion.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Accordion = function Accordion() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'accordion_container'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", null, \"Don't forget to bring...\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Accordion);\n\n//# sourceURL=webpack:///./src/components/Accordion.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/Footer.jsx":
+/*!***********************************!*\
+  !*** ./src/components/Footer.jsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Footer = function Footer(props) {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'footer'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: \"./Media/bird-suitcase.png\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n    className: 'footer_text'\n  }, \"That's all she wrote.\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Footer);\n\n//# sourceURL=webpack:///./src/components/Footer.jsx?");
+
+/***/ }),
+
 /***/ "./src/components/Header.jsx":
 /*!***********************************!*\
   !*** ./src/components/Header.jsx ***!
@@ -485,7 +509,31 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Header_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.jsx */ \"./src/components/Header.jsx\");\n\n\n\nvar Home = function Home() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home);\n\n//# sourceURL=webpack:///./src/components/Home.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Header_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.jsx */ \"./src/components/Header.jsx\");\n/* harmony import */ var _Info_About_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Info_About.jsx */ \"./src/components/Info_About.jsx\");\n/* harmony import */ var _Accordion_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Accordion.jsx */ \"./src/components/Accordion.jsx\");\n/* harmony import */ var _Footer_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.jsx */ \"./src/components/Footer.jsx\");\n/* harmony import */ var _Side_Panel_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Side_Panel.jsx */ \"./src/components/Side_Panel.jsx\");\n\n\n\n\n\n\n\nvar Home = function Home() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'page_container'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_jsx__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'info_content_holder'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Info_About_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Accordion_jsx__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'info_content_right'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Side_Panel_jsx__WEBPACK_IMPORTED_MODULE_5__[\"default\"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_jsx__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home);\n\n//# sourceURL=webpack:///./src/components/Home.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/Info_About.jsx":
+/*!***************************************!*\
+  !*** ./src/components/Info_About.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Info_About = function Info_About() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'info_about_container'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Packing for your Orlando Trip\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", null, \"We can help you get ready.\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Tilde chillwave XOXO tattooed. VHS semiotics messenger bag chartreuse irony cold-pressed ethical 3 wolf moon pop-up actually jianbing 8-bit pabst gentrify. Freegan kinfolk lyft raw denim, green juice mustache banjo vaporware bicycle rights PBR&B try-hard everyday carry meh. Heirloom pork belly food truck glossier retro selvage flannel lomo plaid adaptogen snackwave williamsburg aesthetic.\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Keytar waistcoat wolf snackwave, iceland gastropub tacos asymmetrical post-ironic YOLO marfa. Skateboard stumptown jean shorts chicharrones, iceland pabst YOLO. Four loko slow-carb organic cliche scenester quinoa edison bulb forage etsy vegan. Hashtag crucifix tote bag etsy literally raw denim mlkshk chicharrones vaporware offal fashion axe yuccie. Poutine everyday carry blue bottle pickled raw denim subway tile.\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", null, \"Continue Reading\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Info_About);\n\n//# sourceURL=webpack:///./src/components/Info_About.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/Side_Panel.jsx":
+/*!***************************************!*\
+  !*** ./src/components/Side_Panel.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Side_Panel = function Side_Panel(props) {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: 'side_panel'\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: 'avatar',\n    src: \"./Media/avatar.jpg\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Mail me an itinerary\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Side_Panel);\n\n//# sourceURL=webpack:///./src/components/Side_Panel.jsx?");
 
 /***/ }),
 

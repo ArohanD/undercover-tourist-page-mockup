@@ -18,3 +18,36 @@
   color: whitesmoke;
   border: 1px solid whitesmoke;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_content_holder {
+  width: 60vw;
+}
+
+.side_panel {
+  background-color: #d9eeef;
+  height: 400px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar_container {
+  height: 30px;
+  width: 30px;
+
+  border-radius: 50px;
+}
+
+.avatar {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50px;
+}
