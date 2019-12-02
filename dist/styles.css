@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('Media/Fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('Media/Fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('Media/Fonts/ProximaNova-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('Media/Fonts/ProximaNova-RegularItalic.otf');
+  font-style: italic;
+}
+
+body {
+  font-family: 'Proxima Nova';
+}
+
 .info_header_container {
   width: 100vw;
   height: 35vh;
@@ -17,6 +43,8 @@
   width: 30vw;
   color: whitesmoke;
   border: 1px solid whitesmoke;
+
+  font-family: Oswald;
 }
 
 .footer {
