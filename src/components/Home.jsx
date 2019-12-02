@@ -12,7 +12,8 @@ const Home = () => {
             <Header />
             <div className={'info_content_holder'}>
                 <Info_About />
-                <Accordion />
+                <Accordion title={`Don't forget to bring...`} content={'packing_list'}/>
+                <Accordion title={`Other Attractions...`} content={'other_attractions'}/>
             </div>
             <div className={'info_content_right'}>
                 <Side_Panel />

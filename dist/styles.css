@@ -47,7 +47,7 @@ body {
 
 .info_header_img {
   width: 100vw;
-  height: 35vh;
+  height: 30vh;
   object-fit: cover;
 }
 
@@ -74,14 +74,14 @@ body {
   left: 0;
 
   width: 100vw;
-  height: 35vh;
+  height: 30vh;
 
   background-color: #5dabc2;
   opacity: 0.75;
 }
 
 .footer {
-  margin: 30px 5vw 0 5vw;
+  margin: 100px 5vw 0 5vw;
   padding-top: 20px;
   border-top: 1px solid rgb(209, 209, 209);
   width: 90vw;
@@ -93,19 +93,19 @@ body {
 
 .info_content_holder {
   width: 60vw;
-  margin-top: 35vh;
+  margin-top: 30vh;
   margin-left: 30px;
 
   display: flex;
   flex-direction: column;
 
-  height: 55vh;
+
 }
 
 .info_content_right {
   position: absolute;
   right: 40px;
-  top: 30vh;
+  top: 25vh;
 }
 
 .side_panel {
@@ -178,7 +178,11 @@ body {
   list-style-type: none;
   padding-inline-start: 22px;
 
-  height: 100px;
+  max-height: 100px;
+}
+
+.accordion_expand {
+  padding-left: 20px;
 }
 
 .info_about_h1 {
@@ -192,6 +196,7 @@ body {
 
 .info_about_h2 {
   font-weight: bold;
+  color: #676d6d;
 }
 
 .info_about_text {
@@ -318,3 +323,5 @@ input {
   color: #1e6070;
   padding-right: 20px;
 }
+
+
