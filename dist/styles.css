@@ -203,3 +203,11 @@ body {
   border:1px solid #5dabc2;
   font-size: 12px;
 }
+
+.hidden {
+  display: none;
+}
+
+.appear {
+  display: initial;
+}

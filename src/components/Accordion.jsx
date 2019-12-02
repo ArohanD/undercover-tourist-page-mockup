@@ -16,12 +16,15 @@ const defaultItems = [
 const Accordion = () => {
 
   const [items, setItems] = useState(defaultItems);
+  const [accordionState, setAccordionState] = useState(false)
   const expand = (e) => {
     e.preventDefault();
 
     let content = document.getElementById('accordion_content');
-    console.log(content);
-
+    let appendClass = accordionState ? 'hidden' : 'appear';
+    let oldClass = accordionState ? 'appear' : 'hidden';
+    content.classList.replace(oldClass, appendClass);
+    setAccordionState(!accordionState);
   }
 
   return (
@@ -30,7 +33,7 @@ const Accordion = () => {
         <span>Don't forget to bring..</span>
         <button onClick={(e) => expand(e)}>{'. >>'}</button>
         </p>
-      <div className={'accordion_list'} id='accordion_content'>
+      <div className={'accordion_list hidden'} id='accordion_content'>
         <p className={'accordion_list_header'}>This is an accordion to show/hide lists</p>
         <ul className={'accordion_list_holder'}>
           {
