@@ -41,14 +41,19 @@ body {
 
 .info_header {
   position: absolute;
-  top: 10px;
-  left: 10vw;
+  top: 15px;
+  left: 15vw;
 
-  width: 30vw;
+  width: 25vw;
   color: whitesmoke;
-  border: 1px solid whitesmoke;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
 
-  font-family: Oswald;
+  font-family: 'Oswald';
+  font-weight: lighter;
+  font-size: 35px;
 }
 
 .info_header_overlay {
@@ -64,19 +69,32 @@ body {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
+  margin: 30px 5vw 0 5vw;
+  padding-top: 20px;
+  border-top: 1px solid rgb(209, 209, 209);
+  width: 90vw;
+  text-align: center;
+
+  font-style: italic;
+  color: #5dabc2;
 }
 
 .info_content_holder {
   width: 60vw;
-  margin-top: 35vh;
+  margin-top: 36vh;
+  margin-left: 30px;
+}
+
+.info_content_right {
+  position: absolute;
+  right: 10px;
+  top: 20vh;
 }
 
 .side_panel {
   background-color: #d9eeef;
   height: 400px;
-  width: 250px;
+  width: 300px;
 
   display: flex;
   flex-direction: column;
@@ -125,6 +143,15 @@ body {
   height: 100px;
 }
 
-.element_margin {
+.info_about_h1 {
+  color: #5dabc2;
+  text-transform: uppercase;
 
+  font-size: 1.2em;
+  font-family: 'Oswald';
+  font-weight: lighter;
+}
+
+.info_about_h2 {
+  font-weight: bold;
 }
