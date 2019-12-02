@@ -27,6 +27,10 @@ body {
 .info_header_container {
   width: 100vw;
   height: 35vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .info_header_img {
@@ -47,6 +51,18 @@ body {
   font-family: Oswald;
 }
 
+.info_header_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 35vh;
+
+  background-color: #5dabc2;
+  opacity: 0.75;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -54,6 +70,7 @@ body {
 
 .info_content_holder {
   width: 60vw;
+  margin-top: 35vh;
 }
 
 .side_panel {
@@ -78,4 +95,36 @@ body {
   width: 80px;
   object-fit: cover;
   border-radius: 50px;
+}
+
+.accordion_container {
+  border: 1px solid #5dabc2;
+}
+
+.accordion_header {
+  background-color: #5dabc2;
+  color: white;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.accordion_list_header {
+  font-weight: bold;
+
+}
+
+.accordion_list_item {
+  max-width: 250px;
+}
+
+.accordion_list_holder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  height: 100px;
+}
+
+.element_margin {
+
 }
